@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
 })
 
 const productSchema = mongoose.Schema({
-    name:{type:String,required:true, default:"No title given by the product owner"},
+    name:{type:String,required:true},
     description:{type:String,default:"See the Images carfully before buying"},
     category: {type:String,required:true , default:"Other"},
     image: {type:String,required:true},
